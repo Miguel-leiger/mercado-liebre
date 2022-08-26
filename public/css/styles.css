@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+
+.main-header {
+    background-color:  #EAC926;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.searching-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searching-bar i{
+    margin: 10px;
+}
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+
+} 
+
+
+.burguer-button{
+    background-color: #0326Ac;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+}
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul { 
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.h3-lastVisit{
+    align-items: center;
+    text-align: center;
+
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.article-1{
+    justify-content: center;
+    margin: auto;
+   
+   
+}
+
+.article-2{
+    justify-content: center;
+    margin: auto;
+}
+
+.article-3{
+    justify-content: center;
+    margin: auto;
+}
+
+.article-4{
+    justify-content: center;
+    margin: auto;
+}
+
+.ofertas{
+    text-align: center;
+}
+
+.oferta-1{
+    justify-content: center;
+    margin: auto;  
+}
+.oferta-2{
+    justify-content: center;
+    margin: auto;  
+}
+.oferta-3{
+    justify-content: center;
+    margin: auto;  
+}
+.oferta-4{
+    justify-content: center;
+    margin: auto;  
+}
+
+
+.product_img{
+    width: 320px;
+    height: 400px;
+
+}
+
+.main-article{
+    background-color: white;
+}
+
+.discount{
+    color: green;
+    display: inline;
+}
+
+.price{
+    display: inline;
+    padding: 5px;
+}
